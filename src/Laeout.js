@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react";
+import Footer from "./components/Footer";
 
 const Laeout = () => {
   return (
@@ -16,6 +17,7 @@ const Laeout = () => {
       </nav>
 
       <Outlet />
+      <Footer />
     </div>
   );
 };

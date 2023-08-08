@@ -4,6 +4,7 @@ import Layout from "./Laeout";
 import HomePage from "./pages/Homepage";
 import About from "./pages/About";
 import Page404 from "./pages/Page404";
+import "./styles/style.css";
 
 function App() {
   return (
